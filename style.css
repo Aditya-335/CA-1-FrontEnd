@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins&display=swap');
+*{
+    background: #000;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.logo{
+width: 10%;
+height: 10%;
+
+} 
+
+.home{
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+}
+.search{
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+}
+.library{
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+}
+.playlist{
+    width: 25px;
+    height: 25px;
+    margin-top: 40px;
+
+}
+.liked{
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+
+}
+.Episodes{
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    
+}
+.Install{
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 20px;
+    color:white;
+    font-family: 'DM Sans';
+}
+
+.one{
+    height: 100px;
+    width: 275px;
+    background:#343634;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+}
+.two{
+    height: 100px;
+    width: 275px;
+    background:#343634;
+    position: absolute;
+    left: 60%;
+    top: 25%;
+}
+.three{
+    height: 90px;
+    width: 275px;
+    background:#343634;
+    position:absolute;
+    left: 20%;
+    top: 25%;
+}
+.four{
+    height: 100px;
+    width: 275px;
+    background:#343634;
+    position: absolute;
+    left:80%;
+    top: 25%;
+}
+.five{
+    height: 100px;
+    width: 275px;
+    background:#343634;
+    position: absolute;
+    left: 20%;
+    top:40%;
+}
+
+.arrow{
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    left: 20%;
+    top: 3%;
+}
+.six{
+    width: 100%;
+    height: 100px;
+    background:#242424;
+    position: absolute;
+    background-image: url("/Music\ Player\ Options.png");
+        
+}
+.man{
+    position: absolute;
+    left: 20%;
+    top: 70%;
+}
+.lady{
+    position: absolute;
+    left: 85%;
+    top: 70%;
+}
+
+h1{
+    font-family:'DM Sans';
+    color: #fff;
+    position: absolute;
+    left: 20%;
+    top: 12%;
+
+}
+
+h2{
+    font-family: 'DM Sans';
+    color: #fff;
+    position: absolute;
+    left: 20%;
+    top: 60%;
+}
+span{
+    color: white;
+    font-family:'DM Sans';
+}
+span .content{
+    color: #fff;
+    font-family: 'DM Sans';
+    position: relative;
+    top: 5px;
+    
+
+}
