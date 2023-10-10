@@ -1,0 +1,47 @@
+
+h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+h3{
+    text-align: left;
+    font-size: 25px;
+}
+
+body{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/578216ab03596e5098e9fe38/1568316717299-TR4PQUTVHF7DGNU9FDD0/analysis-3707159_1920.jpg");
+}
+
+
+    
+
+form input[type="submit"]{
+    background:coral;
+    width: 40%;
+}
+form input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+.stop{
+    transition: 0.1s;
+}
+
+.move{
+    transform: translateX(100%);
+}

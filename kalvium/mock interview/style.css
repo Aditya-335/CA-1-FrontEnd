@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-image:url("https://images.pexels.com/photos/10497155/pexels-photo-10497155.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");  
+    background-size: cover;
+    background-position: bottom;
+   
+} 
+h1{
+    font-family:'Poppins';
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 32px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    position: relative;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    /* margin-right: 40px; */
+}
+.navbar a::before{
+    position: absolute;
+    content:'';
+    top: 100%;
+    width:0;
+    left: 0;
+    height: 2px;
+    background: #eb0404;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}

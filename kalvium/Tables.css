@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+table {
+    border-collapse: collapse;
+    width: 250 px;
+    position: absolute;
+    bottom: 175px;
+    left: 170px;
+    
+    box-shadow: rgba(0, 0, 0, alpha);
+
+}
+html{
+    background-color:lightpink;
+}
+
+
+caption{
+    font-family: 'Roboto',sans-serif;
+    font-size: larger;
+
+}
+
+th, td {
+    padding: 20px;
+    border: 2px;
+    
+    text-align: center;
+    font-family:'Roboto',sans-serif;
+}
+
+#tr{
+    border-bottom:2px solid red;
+}
+
+th {
+    background-color: red;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ddd;
+}
+

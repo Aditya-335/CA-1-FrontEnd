@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Project Groove</title>
+    <link rel="stylesheet" href="/Day 6 Project Groove/style.css">
+</head>
+<body>
+    <header>
+        <img src=" https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-logo%5B1%5D.png" alt="groove-logo">
+    </header>
+
+    <div class="top container">
+     <h1> Welcome to Groove!</h1>
+     <p>Select your favourite groceries, confirm your mobile number<br> and get them delivered in 30 minutes -<b>Straight from the farm
+     </b></p>
+
+    <br>
+    <div class="button store "><a href="#table"><b>whats in store</b></a></div>
+    </div>
+
+    <div class="table container">
+        <h2> Here's whats in store today</h2>
+        <table id="table">
+
+            <tr>
+             <th>SELECT</th>
+             <th>ITEM</th>
+             <th>NAME</th>
+             <th>PRICE</th>
+             <th>CONTAINS</th>
+             <th>QUANTITY</th>   
+
+            </tr>
+
+            <tr>
+             <td><input type="checkbox" name="" id="checkbox"></td>
+             <td><img src=" https://kq-storage.s3.ap-south-1.amazonaws.com/Github/apple%5B1%5D.png"></td>
+             <td>Green apple</td>
+             <td>INR 22/- Per kg</td>
+             <td>520 Calories, 3.0g protein <br>2.0g Fat</td>  
+             <td><input type="number" id="quantity"></td> 
+
+
+
+            </tr>
+
+            <tr>
+             <td><input type="checkbox" name="" id="checkbox"></td>
+             <td><img src=" https://kq-storage.s3.ap-south-1.amazonaws.com/Github/strawberry%5B1%5D.png"></td>
+             <td>Strawberries</td>
+             <td>INR 108/- Per Box</td>
+             <td>424 Calories,8.88g proteins,<br> 24g Fiber, </td>   
+             <td><input type="number" id="quantity"></td> 
+
+
+            </tr>
+
+            <tr>
+            <td><input type="checkbox" name="" id="checkbox"></td></td>
+            <td><img src=" https://kq-storage.s3.ap-south-1.amazonaws.com/Github/spinach%5B1%5D.png"></td>
+            <td>Spinach</td>
+            <td>INR 10/- Per Piece</td>
+            <td>230 Calories,29.0g proteins,<br>4.0g Fat, 22g Fiber</td>
+            <td><input type="number" id="quantity"></td> 
+
+
+            </tr>
+
+            <tr>
+             <td><input type="checkbox" name="" id="checkbox"></td>
+             <td><img src=" https://kq-storage.s3.ap-south-1.amazonaws.com/Github/carrot%5B1%5D.png"></td>
+             <td>Carrot</td>
+             <td>INR 26/- Per kg</td>
+             <td>410 Calories,9.0g proteins,<br>9.0g Fat, 22g Fiber </td>   
+             <td><input type="number" id="quantity"></td> 
+
+            </tr>
+
+            </table>
+
+            <br><br>
+            <p>One last step to place your order</p>
+
+            <br>
+            <input type="number" id="mobile" placeholder="Enter your number">
+
+            <br><br>
+            <div class="button" id="buy-now"><b>Buy Now</b></div>
+            <h3 id="Thanks">Thank you for shopping</h3>
+
+            <br><br>
+
+            <footer>
+               <p>Made with ❤️ by Aditya</p>
+            </footer>
+            <script>
+                document.getElementById("buy-now").onclick = ()=>{
+                    document.getElementById("Thanks").style.display = "inherit";
+                    document.getElementById("buy-now").style.display = "none";
+                }
+            </script>
+            
+
+            
+
+
+    </div>
+    
+
+
+</body>
+</html>

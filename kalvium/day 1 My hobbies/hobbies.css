@@ -1,0 +1,19 @@
+body{
+    padding: 16px;
+    background-color: aqua;
+}
+
+h1{
+    font-weight : bold;
+    padding: 15px;
+    border: 5px solid black;
+    margin:50px;
+}    
+u,h2{
+    color:dodgerblue;
+}
+img{
+    margin: 80px;
+    width: 200px;
+    height: 200px;
+}

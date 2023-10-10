@@ -1,0 +1,91 @@
+@import url(":https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+
+* {
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}   
+
+body{
+    font-family:"Exo 2", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: url(" https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png");
+    background-size: 100% ;
+}
+
+#astronaut1 {
+    width:500px;
+    position: absolute;
+    top:5%;
+    left:5%;
+    animation: fish 5s infinite ease-in;
+}
+
+#astronaut2 {
+    width:425px;
+    position: absolute;
+    top:30%;
+    left:30%;
+    animation: fish 5s infinite ease-in;
+}
+
+@keyframes fish {
+0%{
+    transform: translateY(0px);
+  }
+
+50%{
+    transform: translateY(30px);
+   }
+}
+
+form {
+    position:absolute;
+    top:15%;
+    left:65%;
+    background-color: white;
+    width:450px;
+    padding: 0px 75px;
+    border-radius: 5px;
+}
+
+.block-display {
+ display: block;
+}
+ label{
+ font-size:16px;
+ margin: 20px 0px 4px 0px;
+ }
+ 
+
+ input[type="number"],
+ input[type="text"],
+ select {
+    width: 300px;
+    height:40px;
+    border: 1px solid black;
+    padding:0 5px;
+ }
+
+ .rent-label {
+    margin-right:10px;
+ }
+
+ #button {
+    display: block;
+    border-radius: 20px;
+    background-color:#ec7920 ;
+    border:none;
+    color:white;
+    padding:15px 20px;
+    margin: 40px auto;
+ }
+
+ h1 {
+    text-align: center;
+    margin:20px 40px;
+    font-size: 1.6em;
+    width: 200px;
+ }
+

@@ -1,0 +1,17 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/pathogen-microorganisms-set_74855-5909.jpg?w=2000");
+    background-color: antiquewhite;
+    animation: infinite;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
